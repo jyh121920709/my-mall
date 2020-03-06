@@ -1,9 +1,9 @@
 package com.jyh.mall.controller;
 
-import com.macro.mall.tiny.common.api.CommonPage;
-import com.macro.mall.tiny.common.api.CommonResult;
-import com.macro.mall.tiny.mbg.model.PmsBrand;
-import com.macro.mall.tiny.service.PmsBrandService;
+import com.jyh.mall.common.api.CommonPage;
+import com.jyh.mall.common.api.CommonResult;
+import com.jyh.mall.mbg.model.PmsBrand;
+import com.jyh.mall.service.PmsBrandService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
