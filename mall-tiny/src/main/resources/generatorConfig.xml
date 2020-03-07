@@ -32,16 +32,16 @@
         <!--指定生成model的路径-->
         <!--    <javaModelGenerator targetPackage="com.jyh.mall.mbg.model" targetProject="mall-tiny-01\src\main\java"/> 相对路径报错-->
         <javaModelGenerator targetPackage="com.jyh.mall.mbg.model"
-                            targetProject="C:\Users\jyh\Desktop\my-mall\mall-tiny-01\src\main\java"/>
+                            targetProject="C:\Users\jyh\Desktop\my-mall\mall-tiny\src\main\java"/>
         <!--指定生成mapper.xml的路径-->
         <!--    <sqlMapGenerator targetPackage="com.jyh.mall.mbg.mapper" targetProject="mall-tiny-01\src\main\resources"/>-->
         <sqlMapGenerator targetPackage="com.jyh.mall.mbg.mapper"
-                         targetProject="C:\Users\jyh\Desktop\my-mall\mall-tiny-01\src\main\resources"/>
+                         targetProject="C:\Users\jyh\Desktop\my-mall\mall-tiny\src\main\resources"/>
         <!--指定生成mapper接口的的路径-->
         <!--    <javaClientGenerator type="XMLMAPPER" targetPackage="com.jyh.mall.mbg.mapper"-->
         <!--                             targetProject="mall-tiny-01\src\main\java"/>-->
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.jyh.mall.mbg.mapper"
-                             targetProject="C:\Users\jyh\Desktop\my-mall\mall-tiny-01\src\main\java"/>
+                             targetProject="C:\Users\jyh\Desktop\my-mall\mall-tiny\src\main\java"/>
         <!--生成全部表tableName设为%-->
         <table tableName="pms_brand">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
